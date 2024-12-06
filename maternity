@@ -1,0 +1,7 @@
+User Story:
+As an employee, I want to access a user-friendly portal, so that I can submit my maternity leave requests online without relying on emails.
+Acceptance Criteria:
+
+The portal allows employees to log in using single sign-on (SSO).
+Employees can fill out and submit a maternity leave request form with required fields.
+The portal confirms submission via a success message and email notification.
