@@ -5,3 +5,11 @@ Acceptance Criteria:
 The portal allows employees to log in using single sign-on (SSO).
 Employees can fill out and submit a maternity leave request form with required fields.
 The portal confirms submission via a success message and email notification.
+
+User Story:
+As an HR administrator, I want employees to submit leave requests through the ServiceNow portal, so that I can reduce manual processing and keep all requests centralized.
+Acceptance Criteria:
+
+All submitted requests are visible in the ServiceNow dashboard.
+HR administrators can filter requests by status (e.g., pending, approved, rejected).
+Manual email submission is disabled after portal implementation.
