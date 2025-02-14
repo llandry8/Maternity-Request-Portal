@@ -1,15 +1,18 @@
-User Story:
-As an employee, I want to access a user-friendly portal, so that I can submit my maternity leave requests online without relying on emails.
-Acceptance Criteria:
+As a full-time employee, I want to easily submit a maternity leave request through the Employee Center, so that I can initiate the leave process efficiently. 
 
-The portal allows employees to log in using single sign-on (SSO).
-Employees can fill out and submit a maternity leave request form with required fields.
-The portal confirms submission via a success message and email notification.
+AC: Maternity Leave Request Form:
 
-User Story:
-As an HR administrator, I want employees to submit leave requests through the ServiceNow portal, so that I can reduce manual processing and keep all requests centralized.
-Acceptance Criteria:
-
-All submitted requests are visible in the ServiceNow dashboard.
-HR administrators can filter requests by status (e.g., pending, approved, rejected).
-Manual email submission is disabled after portal implementation.
+The Employee Center item shall be named "Maternity Leave Request."
+The form shall include the following fields (with appropriate data types and validation):
+Employee Name (Reference to User table)
+Employee ID (String)
+Expected Start Date of Leave (Date)
+Expected End Date of Leave (Date)
+Estimated Return to Work Date (Date)
+Number of Weeks of Leave Requested (Integer, calculated field based on start and end dates)
+Supporting Documentation Upload (Attachment)
+Contact Information (Phone Number, Email Address)
+All date fields shall have date pickers.
+Appropriate field labels and help text shall be provided.
+All fields are mandatory.
+The "Maternity Leave Request" item shall be located within the "Human Resources" category.
